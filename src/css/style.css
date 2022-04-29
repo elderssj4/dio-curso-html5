@@ -1,8 +1,39 @@
-#title, .subtitle, .post-title{
+body {
+    background-color: gray;
+}
+
+#title,
+.subtitle,
+.post-title {
     color: blue;
 }
 
-.post-title{
+.post-title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #505050;
+    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.text {
+    color: #505050;
+    margin: 0;
+    margin-top: 15px;
+
+}
+
+.img-post {
+    border-radius: 5px;
+    width: 100%;
 }
